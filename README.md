@@ -21,12 +21,15 @@ Vocal-Recovery/
 ├── tools.py            # Contains core functions (find, find_CSV, checkInput)
 ├── msg.py              # Handles UI text colors and message prompts
 ├── CallsList.csv       # The example file for "Auto Search" mode (You should use youre own)
-├── ToDo                # Your list of future features and fixes
 │
 ├── tests/              # (Suggested grouping for your test files)
 │   ├── test_lvl0.py
 │   ├── testlvl1.py
 │   └── testlvl2.py
+|
+├── others/
+│   ├── legacys         # Functions trash
+│   └── ToDo            # Your list of future features and fixes
 │
 └── out_record/         # (Created automatically when running the app)
     └── items_finds/    # Where found audio files are copied
